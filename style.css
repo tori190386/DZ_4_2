@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 600px;
+    height: 600px;
+}
+.container div {
+    width: 200px;
+    height: 200px;
+    float: left;
+} 
+.container div:nth-child(2n+1) {
+    background: #850000;
+}
+.container div:nth-child(2n) {
+	background: white;
+}
+img {
+    width: 200px;
+    height: 200px; 
+}
